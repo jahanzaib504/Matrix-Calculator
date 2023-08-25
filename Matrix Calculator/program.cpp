@@ -100,7 +100,7 @@ int main(){
    	matArray[i].inputMatrix();
    }
    char operations[no-1];
-   cout<<"\nEnter the operations between matrices i.e * + - / (no of operations allowed: "<<no-1<<" )"<<endl;
+   cout<<"\nEnter the operations between matrices i.e * + - (no of operations allowed: "<<no-1<<" )"<<endl;
    for(int i=0; i<no-1; i++)
    cin>>operations[i];
    Matrix result = matArray[0];
